@@ -1,0 +1,186 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CopyPasta
+</name>
+</assembly>
+<members>
+<member name="T:CopyPasta.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CopyPasta.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CopyPasta.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CopyPasta.Form">
+ <summary>
+ Applikation von KeksTheFurry um in VR Spielen Text zu kopieren und posten zu können.
+ 
+ Update: Has full support for all applications like browsers and vrchat now. Also supports fpsVR hotkeys, so you never need to leave VR anymore. Simply have a browser with youtube open and this application running and you can press the fpsVR Utilities button that says "Ctrl+Shift+3" on the bottem left. Your browser with youtube will appear on the desktop screen. You then have 5 seconds to select the URL which will then get postet into the textbox that you've selected in VRChat before. Turn off Auto-Post to select the input box afterwards. Use Ctrl+Shift+1 to just open the GET-Application (e.g. Youtube) and Ctrl+Shift+2 to show the program.
+ </summary>
+</member>
+<member name="M:CopyPasta.Form.Form_Load(System.Object,System.EventArgs)">
+ <summary>
+ Wird beim Programmstart aufgerufen
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:CopyPasta.Form.aktuellerFortschritt">
+ <summary>
+ Repräsentiert den aktuellen Fortschritt
+ </summary>
+</member>
+<member name="M:CopyPasta.Form.ZeigeProzess">
+ <summary>
+ Zeigt den aktuellen Fortschritt in der ProgressBar an
+ </summary>
+</member>
+<member name="M:CopyPasta.Form.SendeAnApplikation(System.String,System.String,System.Windows.Forms.Button,System.Boolean)">
+ <summary>
+ Holt den markierten Text von einer Applikation
+ </summary>
+ <param name="nachricht"></param>
+ <param name="windowNamePOST"></param>
+ <param name="buttonObj"></param>
+</member>
+<member name="M:CopyPasta.Form.HoleVonApplikation(System.String,System.String,System.Windows.Forms.Button)">
+ <summary>
+ Sendet den Text der TextBox an eine Applikation
+ </summary>
+ <param name="windowNameGET"></param>
+ <param name="buttonObj"></param>
+ <returns></returns>
+</member>
+<member name="M:CopyPasta.Form.SetFocusToWindow(System.String)">
+ <summary>
+ Setzt den Fokus auf ein aktives Fenster welches den namen windowNamePOST enthält
+ </summary>
+ <param name="windowName">Name des aktiven Fensters einer laufenden Applikation</param>
+</member>
+<member name="M:CopyPasta.Form.ActivateMyself">
+ <summary>
+ Aktiviert die eigene Applikation
+ </summary>
+</member>
+<member name="M:CopyPasta.Form.PanelForMoving_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Beim MouseDown Event wird mouseDownBool auf true gesetzt und die aktuelle Position als lastLocation gespeichert
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.PanelForMoving_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Beim MouseMove Events wird - sofern mouseDownBool true ist - das Form um die bisher zurückgelegte Differenz zu lastLocation bewegt
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.PanelForMoving_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Beim MouseUp Event wird mouseDownBool auf false gesetzt
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.ButtonApplikationBeenden_Click(System.Object,System.EventArgs)">
+ <summary>
+ Beendet die Applikation
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:CopyPasta.Form.delay">
+ <summary>
+ Das eingestellte Delay in Millisekunden
+ </summary>
+</member>
+<member name="M:CopyPasta.Form.ButtonDelayPlus_Click(System.Object,System.EventArgs)">
+ <summary>
+ Vergrößert das Delay um 100 Millisekunden
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.ButtonDelayMinus_Click(System.Object,System.EventArgs)">
+ <summary>
+ Verkleinert das Delay um 100 Millisekunden
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.ButtonCopyGetDown_Click(System.Object,System.EventArgs)">
+ <summary>
+ Setzt die Eingabe der obersten linken TextBox in alle TextBoxen darunter
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.ButtonCopyPostDown_Click(System.Object,System.EventArgs)">
+ <summary>
+ Setzt die Eingabe der obersten rechten TextBox in alle TextBoxen darunter
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.RegisterHotKey(System.IntPtr,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ Registriert einen neuen Hotkey
+ </summary>
+ <param name="hwnd"></param>
+ <param name="id"></param>
+ <param name="fsModifiers"></param>
+ <param name="vk"></param>
+ <returns></returns>
+</member>
+<member name="M:CopyPasta.Form.UnregisterHotKey(System.IntPtr,System.Int32)">
+ <summary>
+ Entfernt einen registrierten Hotkey
+ </summary>
+ <param name="hwnd"></param>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:CopyPasta.Form.RegisterHotKey">
+ <summary>
+ Registriert alle Hotkeys
+ </summary>
+</member>
+<member name="M:CopyPasta.Form.DefWndProc(System.Windows.Forms.Message@)">
+ <summary>
+ Wenn die Tastenkombination gedrückt wird
+ </summary>
+ <param name="m"></param>
+</member>
+<member name="M:CopyPasta.Form.Form_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ Beim Schließen wird der Hotkey entfernt
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CopyPasta.Form.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Öffnet YouTube
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:CopyPasta.API">
+ <summary>
+ Class from Bill ( https://stackoverflow.com/a/2171744 ) to maximize minimized applications
+ </summary>
+</member>
+</members>
+</doc>

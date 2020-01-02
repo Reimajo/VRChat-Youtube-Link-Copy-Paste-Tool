@@ -1,0 +1,24 @@
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\bin\Debug\CopyPasta.exe.config
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\bin\Debug\CopyPasta.exe
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\bin\Debug\CopyPasta.pdb
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\bin\Debug\CopyPasta.xml
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.vbprojAssemblyReference.cache
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.Form.resources
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.Resources.resources
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.vbproj.GenerateResource.cache
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.vbproj.CoreCompileInputs.cache
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.exe
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.xml
+D:\UserData\z0039xnu\Documents\Visual Studio 2017\Projects\CopyPasta\CopyPasta\obj\Debug\CopyPasta.pdb
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\bin\Debug\CopyPasta.exe.config
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\bin\Debug\CopyPasta.exe
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\bin\Debug\CopyPasta.pdb
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\bin\Debug\CopyPasta.xml
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.vbprojAssemblyReference.cache
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.Form.resources
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.Resources.resources
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.vbproj.GenerateResource.cache
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.vbproj.CoreCompileInputs.cache
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.exe
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.xml
+C:\Users\Felix\Documents\CopyPasta\CopyPasta\obj\Debug\CopyPasta.pdb
